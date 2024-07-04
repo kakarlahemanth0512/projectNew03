@@ -17,7 +17,7 @@ def transform_data(df):
     Function to perform data transformation.
     Modify this function based on your specific transformation requirements.
     """
-    # Example: Scaling numerical features
+   
     numerical_columns = df.select_dtypes(include=[np.number]).columns.tolist()
     scaler = StandardScaler()
     df[numerical_columns] = scaler.fit_transform(df[numerical_columns])
