@@ -47,7 +47,7 @@ def main():
     
     input_file = 'processed_data.csv'
     
-    # Database connection URL (adjust as necessary)
+   
     database_url = 'sqlite:///data_storage.db'  # Example: SQLite database
     
     # Database table name (adjust as necessary)
