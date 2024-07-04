@@ -26,7 +26,7 @@ def preprocess_data(data):
     Function to preprocess the fetched data.
     Modify this function based on your specific preprocessing requirements.
     """
-    # Example: Convert data to DataFrame
+  
     df = pd.DataFrame(data)
     
     # Example: Convert timestamp strings to datetime objects
